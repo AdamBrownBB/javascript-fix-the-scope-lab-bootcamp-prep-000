@@ -8,10 +8,10 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  var animal = 'cat'
-  return animal
+  var animal = 'cat';
+  return animal;
 }
-const two = 2
+const two = 2;
 function add2(n) {
   return n + two
 
@@ -21,7 +21,7 @@ function add2(n) {
 
 var funkyFunction = function() {
   return function() {
-    return "FUNKY!"
+    return "FUNKY!";
   }
 }
 
