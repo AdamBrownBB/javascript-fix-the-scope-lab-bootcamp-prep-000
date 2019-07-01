@@ -39,8 +39,8 @@ var funkyFunction = function() {
 // set theFunk to call t
 
 
- var theFunk = funkyFunction()
- theFunk = theFunk()
+ var theFunk = funkyFunction();
+ theFunk = theFunk();
  
  
 
