@@ -36,8 +36,8 @@ var funkyFunction = function() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
-// set theFunk to call t
-
+/* set theFunk to call the funkyFunction first, then set it equal to it calling itself, so that is now equal to what funkyFunction has already returned becaue it has been run (not just returned)
+*/
 
  var theFunk = funkyFunction();
  theFunk = theFunk();
