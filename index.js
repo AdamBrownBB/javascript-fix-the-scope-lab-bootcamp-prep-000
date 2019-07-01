@@ -16,7 +16,7 @@ function yourAnimal() {
   return animal;
 }
 
-//
+// moved it outside of the function i think, need to see original
 
 const two = 2;
 function add2(n) {
